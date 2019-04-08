@@ -1,0 +1,9 @@
+
+BLOCK MASS
+#  PDG code   mass   particle
+   1000022   5.000000e+02   # n1
+   1000024   5.002364e+02   # x1+
+# DECAY TABLE
+DECAY   1000024  3.946640e-16 # x1+ decays
+#          BR          NDA       ID1     ID2
+           1.0         2         -11    1000022         # x1+  -->  n1 pi+(e+)

@@ -3,6 +3,7 @@ BLOCK MASS
 #  PDG code   mass   particle
    1000022   3.650000e+02   # n1
    1000024   3.651829e+02   # x1+
+Block
 # DECAY TABLE
 DECAY   1000024  9.866601e-17 # x1+ decays
 #          BR          NDA       ID1     ID2

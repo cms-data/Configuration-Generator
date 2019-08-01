@@ -1,0 +1,15 @@
+
+BLOCK MASS
+#  PDG code   mass   particle
+   1000021     7.50000000E+02   # ~g
+   1000022     6.70000000E+02   # ~chi_10
+Block
+# DECAY TABLE
+DECAY   1000021     9.40279643E-14   # gluino decays
+#          BR          NDA       ID1     ID2
+     1.03023786E-01    3     1000022         1        -1   # BR(~g -> ~chi_10 d  db)
+     3.50031629E-01    3     1000022         2        -2   # BR(~g -> ~chi_10 u  ub)
+     1.03023786E-01    3     1000022         3        -3   # BR(~g -> ~chi_10 s  sb)
+     3.50031629E-01    3     1000022         4        -4   # BR(~g -> ~chi_10 c  cb)
+     9.38891699E-02    3     1000022         5        -5   # BR(~g -> ~chi_10 b  bb)
+
